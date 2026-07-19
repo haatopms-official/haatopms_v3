@@ -8,8 +8,9 @@ const stateKeySchema = z.enum([
   "audit",
   "auth-history",
   "guests",
+  "passports",
+  "anketas",
 ]);
-
 
 const getStateSchema = z.object({
   key: stateKeySchema,

@@ -36,10 +36,10 @@ interface AuthContextValue {
 const STORAGE_KEY = "hotel_auth_user";
 
 const CREDENTIALS: Record<string, { password: string; role: UserRole }> = {
-  superuser: { password: "superuser", role: "superuser" },
-  director: { password: "director", role: "director" },
-  admin: { password: "admin", role: "admin" },
-  manager: { password: "manager", role: "manager" },
+  superuser: { password: "SaexatTestSuperuserpanel001", role: "superuser" },
+  director: { password: "SaexatTestDirectorpanel001", role: "director" },
+  admin: { password: "SaexatTestAdminpanel001", role: "admin" },
+  manager: { password: "SaexatTestManagerpanel001", role: "manager" },
 };
 
 const AuthContext = createContext<AuthContextValue | undefined>(undefined);
